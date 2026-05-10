@@ -1,4 +1,4 @@
-## How to Download Astrotalk Call Recording
+## How to Download Audio/Call Recording
 
 ### Step 1 - Open the Recording URL
 Open the recording link in Chrome.
