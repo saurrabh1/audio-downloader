@@ -1,7 +1,7 @@
 ## How to Download Astrotalk Call Recording
 
 ### Step 1 - Open the Recording URL
-Open the Astrotalk recording link in Chrome.
+Open the recording link in Chrome.
 
 ### Step 2 - Open Developer Console
 Press Cmd + Option + I on your keyboard.
