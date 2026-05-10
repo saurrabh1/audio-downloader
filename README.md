@@ -1,4 +1,4 @@
-# Audio Downloader
+<img width="887" height="741" alt="image" src="https://github.com/user-attachments/assets/b01ab847-7c7a-4317-bd31-876bd9063085" /># Audio Downloader
 
 ## How to Download Astrotalk Call Recording
 
@@ -11,6 +11,7 @@ Click on the Console tab.
 
 ### Step 3 - Paste this code in Console and press Enter
 
+// Paste this in Console, press Enter
 let url = null;
 document.querySelectorAll('*').forEach(e => {
   Object.keys(e).filter(k => k.startsWith('__ngContext__')).forEach(k => {
@@ -19,16 +20,17 @@ document.querySelectorAll('*').forEach(e => {
     });
   });
 });
-console.log(url.split('?')[0]);
+console.log(url.split('?')[0]);  // prints the clean m3u8 URL
 
-### Step 4 - Copy the URL
+Step 4 - Copy the URL
 Copy the link that appears starting with https://at-agora-voip-prod.s3...
 
-### Step 5 - Open Terminal
-cd ~/Developer/audio-downloader
+Step 5 - Open Terminal
+Just open the Terminal app on your Mac. That's it. No need to go to any folder.
 
-### Step 6 - Run the Script
-./download_audio.sh "PASTE-YOUR-URL-HERE" "my-recording.mp3"
+Step 6 - Run this command
+ffmpeg -i "PASTE-YOUR-URL-HERE" -c:a libmp3lame -q:a 2 ~/Downloads/recording.mp3
+Replace PASTE-YOUR-URL-HERE with the URL you copied.
 
-### Step 7 - Done
-Your MP3 file will be saved in the audio-downloader folder.
+Step 7 - Done
+Your MP3 file will be saved in your Downloads folder as recording.mp3
