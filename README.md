@@ -1,5 +1,3 @@
-<img width="887" height="741" alt="image" src="https://github.com/user-attachments/assets/b01ab847-7c7a-4317-bd31-876bd9063085" /># Audio Downloader
-
 ## How to Download Astrotalk Call Recording
 
 ### Step 1 - Open the Recording URL
