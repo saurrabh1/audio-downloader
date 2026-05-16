@@ -1,8 +1,7 @@
 ## How to Download Audio/Call Recording
 
 **Demo Video:**
-<a href="[https://youtu.be/vSL6EmNO-k8](https://youtu.be/Ln_eJUQzoXk)"><img src="https://img.youtube.com/vi/vSL6EmNO-k8/hqdefault.jpg" width="600" alt="Watch Demo Video"/></a>
-
+<a href="[https://youtu.be/Ln_eJUQzoXk](https://youtu.be/Ln_eJUQzoXk)"><img src="https://img.youtube.com/vi/Ln_eJUQzoXk/hqdefault.jpg" width="600" alt="Watch Demo Video"/></a>
 
 
 ### Step 1 - Open the Recording URL
