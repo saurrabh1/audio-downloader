@@ -1,0 +1,9 @@
+{
+  "name": "audio-downloader",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Download Astrotalk call recordings automatically",
+  "dependencies": {
+    "puppeteer": "^23.0.0"
+  }
+}
